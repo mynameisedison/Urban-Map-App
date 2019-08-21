@@ -1,12 +1,16 @@
 {
   "name": "urbansdk",
+  "main": "server.js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.19.2",
+    "morgan": "^1.9.1",
     "pg": "^7.12.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-map-gl": "^5.0.9",
+    "react-map-gl": "^5.0.10",
     "react-scripts": "3.1.0"
   },
   "scripts": {

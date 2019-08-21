@@ -1,0 +1,984 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 1,
+      "FACILID": 34841,
+      "FOLIO": "3059220010400",
+      "NAME": "Baptist Health Emergency Center West Kendall",
+      "ADDRESS": "14100 SW 136TH ST",
+      "CITY": "Miami",
+      "ZIPCODE": 33186,
+      "CONTACT": "Joel  Fleitas",
+      "PHONE": "7865946911",
+      "PHONE2": "7862981357",
+      "FAX": null,
+      "CAPACITY": 16,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": "WWW.BAPTISTHEALTH.NET",
+      "LAT": 25.63998,
+      "LON": -80.42186,
+      "POINT_X": 846637.249969579,
+      "POINT_Y": 475259.374982573
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.42185276094482, 25.639987437433486]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 2,
+      "FACILID": 51,
+      "FOLIO": "3050030480010",
+      "NAME": "Kendall Endoscopy and Surgery Center",
+      "ADDRESS": "7875 SW 104 Street Suite 201",
+      "CITY": "Miami",
+      "ZIPCODE": 33156,
+      "CONTACT": "Maria Tarrau",
+      "PHONE": "3052707572",
+      "PHONE2": "3052999046",
+      "FAX": "3052701974",
+      "CAPACITY": 8,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": "mtarrau@amsurg.com",
+      "LAT": 25.6742,
+      "LON": -80.32236,
+      "POINT_X": 879350.000160746,
+      "POINT_Y": 487851.406228907
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.32236659710163, 25.674205213485795]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 3,
+      "FACILID": 33161,
+      "FOLIO": "3050020420030",
+      "NAME": "American Access Care of Miami ASC, LLC",
+      "ADDRESS": "9200 S DADELAND BLVD",
+      "CITY": "Miami",
+      "ZIPCODE": 33156,
+      "CONTACT": "Gabrielle Giordani",
+      "PHONE": "3056701044",
+      "PHONE2": "3055462807",
+      "FAX": "3056701046",
+      "CAPACITY": 0,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "C",
+      "HYPERLINK": "http://www.freseniusvascular.com",
+      "LAT": 25.68418,
+      "LON": -80.31669,
+      "POINT_X": 881199.701513831,
+      "POINT_Y": 491488.681434654
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.31669371901444, 25.68418624012509]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 4,
+      "FACILID": 35721,
+      "FOLIO": "3050040000061",
+      "NAME": "Baptist Health Surgery Center at Kendall",
+      "ADDRESS": "8940 N KENDALL DR",
+      "CITY": "Miami",
+      "ZIPCODE": 33176,
+      "CONTACT": "Maria Suarez Cantillo",
+      "PHONE": "7865946911",
+      "PHONE2": "3057730357",
+      "FAX": null,
+      "CAPACITY": 32,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": null,
+      "LAT": 25.68449,
+      "LON": -80.34105,
+      "POINT_X": 873181.511185411,
+      "POINT_Y": 491561.243953571
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.34103842343852, 25.684497882596418]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 5,
+      "FACILID": 27641,
+      "FOLIO": "3059010800001",
+      "NAME": "Miami Regional Surgery Center",
+      "ADDRESS": "11801 SW 90 ST, UNIT 202",
+      "CITY": "Miami",
+      "ZIPCODE": 33186,
+      "CONTACT": "KEN WHALEN",
+      "PHONE": "5613923341",
+      "PHONE2": "9545574377",
+      "FAX": "5613923793",
+      "CAPACITY": 8,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": "kwhalen@fcpm.net",
+      "LAT": 25.68473,
+      "LON": -80.38649,
+      "POINT_X": 858213.90791858,
+      "POINT_Y": 491576.774106242
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.3864851090454, 25.684738815311604]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 6,
+      "FACILID": 21381,
+      "FOLIO": "3050020970001",
+      "NAME": "Surgical Park Center",
+      "ADDRESS": "9065 Dadeland Blvd",
+      "CITY": "Miami",
+      "ZIPCODE": 33156,
+      "CONTACT": "Lionel Lima",
+      "PHONE": "3052719100",
+      "PHONE2": "3057080772",
+      "FAX": "3055985509",
+      "CAPACITY": 29,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "C",
+      "HYPERLINK": null,
+      "LAT": 25.68626,
+      "LON": -80.3132,
+      "POINT_X": 882345.208737247,
+      "POINT_Y": 492250.36691916
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.31320358716754, 25.686265525054612]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 7,
+      "FACILID": 616,
+      "FOLIO": "3050030000370",
+      "NAME": "Miami Hand Center, LLC.",
+      "ADDRESS": "8905 SW 87th Avenue,  #101",
+      "CITY": "Miami",
+      "ZIPCODE": 33176,
+      "CONTACT": "Maria Tremols-Orbay",
+      "PHONE": "3056678686",
+      "PHONE2": "3054570188",
+      "FAX": "3055956620",
+      "CAPACITY": 0,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": "www.handmiami.com/ambulatory-center",
+      "LAT": 25.68667,
+      "LON": -80.33379,
+      "POINT_X": 875565.072035078,
+      "POINT_Y": 492366.072068326
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.33378882326294, 25.68667933683059]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 8,
+      "FACILID": 1472,
+      "FOLIO": "2452050010010",
+      "NAME": "Key Biscayne Surgery Center",
+      "ADDRESS": "580 CRANDON BLVD # 301",
+      "CITY": "KEY BISCAYNE",
+      "ZIPCODE": 33149,
+      "CONTACT": "Roger Khouri",
+      "PHONE": "3053657770",
+      "PHONE2": "3056329082",
+      "FAX": "3053657778",
+      "CAPACITY": 4,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "A",
+      "HYPERLINK": "www.keybiscaynesurgery.com",
+      "LAT": 25.69037,
+      "LON": -80.16412,
+      "POINT_X": 931434.445204247,
+      "POINT_Y": 494027.97064741
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.16411969465476, 25.690378176303817]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 9,
+      "FACILID": 17121,
+      "FOLIO": "3040330570001",
+      "NAME": "Miami Surgical Center",
+      "ADDRESS": "7600 SW. 87th Avenue Suite 200",
+      "CITY": "Miami",
+      "ZIPCODE": 33173,
+      "CONTACT": "Jeanette  Valladares",
+      "PHONE": "3055952414",
+      "PHONE2": "3054691936",
+      "FAX": "3055955140",
+      "CAPACITY": 18,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": "www.miasurgicalcenter.com",
+      "LAT": 25.69826,
+      "LON": -80.33451,
+      "POINT_X": 875306.537119079,
+      "POINT_Y": 496576.338910237
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.33450945717374, 25.698266621784565]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 10,
+      "FACILID": 35741,
+      "FOLIO": "3040330570001",
+      "NAME": "Baptist Health Endoscopy Center at Galloway South ",
+      "ADDRESS": "7600 SW 87TH AVE Suite 100",
+      "CITY": "Miami",
+      "ZIPCODE": 33173,
+      "CONTACT": "Luis  Simpson",
+      "PHONE": "7862353750",
+      "PHONE2": "7864731140",
+      "FAX": "7862353751",
+      "CAPACITY": 12,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": "www.baptisthealth.net",
+      "LAT": 25.69826,
+      "LON": -80.33451,
+      "POINT_X": 875306.537119079,
+      "POINT_Y": 496576.338910237
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.33450945717374, 25.698266621784565]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 11,
+      "FACILID": 35861,
+      "FOLIO": "3040330510010",
+      "NAME": "Baptist Health Endoscopy Center at Galloway North",
+      "ADDRESS": "7500 SW 87TH AVE",
+      "CITY": "Miami",
+      "ZIPCODE": 33173,
+      "CONTACT": "Luis Simpson",
+      "PHONE": "7865946911",
+      "PHONE2": "7863386757",
+      "FAX": null,
+      "CAPACITY": 27,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": null,
+      "LAT": 25.69935,
+      "LON": -80.33583,
+      "POINT_X": 874869.437599577,
+      "POINT_Y": 496969.125198156
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.33583079361674, 25.69935334524751]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 12,
+      "FACILID": 27581,
+      "FOLIO": "3040280670010",
+      "NAME": "Miami Surgical Suites",
+      "ADDRESS": "9035 Sunset Drive, Suite #200",
+      "CITY": "Miami",
+      "ZIPCODE": 33173,
+      "CONTACT": "Estella Castoreno",
+      "PHONE": "2104123215",
+      "PHONE2": "2104123215",
+      "FAX": "7868011352",
+      "CAPACITY": 12,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": "scastoreno@miamisurgsuites.com",
+      "LAT": 25.70237,
+      "LON": -80.34098,
+      "POINT_X": 873168.323219661,
+      "POINT_Y": 498059.685352989
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.3409800652844, 25.70237723890888]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 13,
+      "FACILID": 1054,
+      "FOLIO": "940360400131",
+      "NAME": "Medical Arts Surgery Center at South Miami",
+      "ADDRESS": "6200 Sunset Drive, Suite # 200",
+      "CITY": "SOUTH MIAMI",
+      "ZIPCODE": 33143,
+      "CONTACT": "Barbara Matias",
+      "PHONE": "7866625520",
+      "PHONE2": "7869424654",
+      "FAX": "7866625526",
+      "CAPACITY": 19,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "C",
+      "HYPERLINK": "www.baptisthealth.net",
+      "LAT": 25.70331,
+      "LON": -80.29371,
+      "POINT_X": 888732.070963494,
+      "POINT_Y": 498479.734381653
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.29370970532764, 25.703311633356606]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 14,
+      "FACILID": 31461,
+      "FOLIO": "3049250000774",
+      "NAME": "Center for Eye Surgery",
+      "ADDRESS": "6660 SW 117 Ave",
+      "CITY": "Miami",
+      "ZIPCODE": 33183,
+      "CONTACT": "Heidi Sanchez Perez",
+      "PHONE": "7864572665",
+      "PHONE2": "7864572665",
+      "FAX": "3056614906",
+      "CAPACITY": 5,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": "www.medeyeassociates.com",
+      "LAT": 25.70601,
+      "LON": -80.38286,
+      "POINT_X": 859372.509603996,
+      "POINT_Y": 499316.313089073
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.38285741458577, 25.706017956731007]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 15,
+      "FACILID": 19721,
+      "FOLIO": "940250110150",
+      "NAME": "South Florida Surgery Center",
+      "ADDRESS": "6110 SW 70 Street",
+      "CITY": "South Miami",
+      "ZIPCODE": 33143,
+      "CONTACT": "Karl Rene",
+      "PHONE": "3056623100",
+      "PHONE2": "3057668757",
+      "FAX": "3056623101",
+      "CAPACITY": 27,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "C",
+      "HYPERLINK": "http://southfloridasurgerycenter.com/",
+      "LAT": 25.70587,
+      "LON": -80.2922,
+      "POINT_X": 889224.136580411,
+      "POINT_Y": 499412.190193906
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.29220023651136, 25.70586982483386]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 16,
+      "FACILID": 36981,
+      "FOLIO": "341190030010",
+      "NAME": "Miami Ortho & Sports Medicine Institute Surgery Ce",
+      "ADDRESS": "1150 Campo Sano Ave",
+      "CITY": "CORAL GABLES",
+      "ZIPCODE": 33146,
+      "CONTACT": "Joel Fleitas",
+      "PHONE": "7865646911",
+      "PHONE2": "7862981357",
+      "FAX": null,
+      "CAPACITY": 17,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "C",
+      "HYPERLINK": null,
+      "LAT": 25.7246,
+      "LON": -80.27417,
+      "POINT_X": 895121.527344663,
+      "POINT_Y": 506252.829399742
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.2741766156189, 25.72460212242579]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 17,
+      "FACILID": 14340,
+      "FOLIO": "141140270010",
+      "NAME": "Bayside Ambulatory Center, LLC",
+      "ADDRESS": "3641 South Miami Avenue",
+      "CITY": "Miami",
+      "ZIPCODE": 33133,
+      "CONTACT": "Maria Vinat",
+      "PHONE": "3058543636",
+      "PHONE2": "3052981351",
+      "FAX": "3058543646",
+      "CAPACITY": 0,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "B",
+      "HYPERLINK": "www.baysideasc.com",
+      "LAT": 25.74131,
+      "LON": -80.21421,
+      "POINT_X": 914827.828155078,
+      "POINT_Y": 512440.603441492
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.21421104128477, 25.741315571388505]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 18,
+      "FACILID": 1436,
+      "FOLIO": "141161230001",
+      "NAME": "Coral Gables Surgery Center",
+      "ADDRESS": "2645 Douglas Road, Ste 400",
+      "CITY": "MIAMI",
+      "ZIPCODE": 33133,
+      "CONTACT": "Taly Lastre",
+      "PHONE": "3054613229",
+      "PHONE2": "3057728849",
+      "FAX": "3054613288",
+      "CAPACITY": 9,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "C",
+      "HYPERLINK": "www.coralgablessurgery.com",
+      "LAT": 25.74233,
+      "LON": -80.25408,
+      "POINT_X": 901700.836364497,
+      "POINT_Y": 512734.217355572
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.25408198633106, 25.74233304264988]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 19,
+      "FACILID": 16040,
+      "FOLIO": "141160151790",
+      "NAME": "Santa Lucia Surgical Center",
+      "ADDRESS": "2441 SW 37TH AVE ",
+      "CITY": "MIAMI",
+      "ZIPCODE": 33145,
+      "CONTACT": "Iliana Hernandez",
+      "PHONE": "3054420066",
+      "PHONE2": "7865464654",
+      "FAX": "3057740035",
+      "CAPACITY": 4,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "C",
+      "HYPERLINK": "iliana_airala@bellsouth.net",
+      "LAT": 25.74512,
+      "LON": -80.25419,
+      "POINT_X": 901661.134344161,
+      "POINT_Y": 513748.147742406
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.25418517580775, 25.745123217451066]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 20,
+      "FACILID": 442,
+      "FOLIO": "341170051230",
+      "NAME": "Beraja Medical Institute Laser & Surgery Ctr.",
+      "ADDRESS": "2550 S Douglas Road",
+      "CITY": "Coral Gables",
+      "ZIPCODE": 33134,
+      "CONTACT": "Dr. Victor Beraja",
+      "PHONE": "3053080440",
+      "PHONE2": "3053080440",
+      "FAX": "7863585282",
+      "CAPACITY": 14,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "E",
+      "HYPERLINK": "www.beraja.com",
+      "LAT": 25.74828,
+      "LON": -80.25479,
+      "POINT_X": 901454.452998996,
+      "POINT_Y": 514895.536523737
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.25479334244162, 25.7482831635312]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 21,
+      "FACILID": 18283,
+      "FOLIO": "3040070000050",
+      "NAME": "Miami Children''s Hospital Surgical Center LLC",
+      "ADDRESS": "800 SW 108 Avenue",
+      "CITY": "Miami",
+      "ZIPCODE": 33174,
+      "CONTACT": "Ruben Reinis",
+      "PHONE": "3054961193",
+      "PHONE2": "3054961193",
+      "FAX": "3052287564",
+      "CAPACITY": 32,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "E",
+      "HYPERLINK": "www.ncasc.com",
+      "LAT": 25.76025,
+      "LON": -80.3717,
+      "POINT_X": 862952.476525411,
+      "POINT_Y": 519046.952761576
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.37170010429672, 25.76025651584935]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 22,
+      "FACILID": 201,
+      "FOLIO": "3041080000010",
+      "NAME": "The Surgery Center of Coral Gables, LLC",
+      "ADDRESS": "1097 S Le Jeune Rd,  2nd Floor",
+      "CITY": "Miami",
+      "ZIPCODE": 33134,
+      "CONTACT": "Jessica  Ramos",
+      "PHONE": "3054611300",
+      "PHONE2": "7864689028",
+      "FAX": "3054427364",
+      "CAPACITY": 20,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "E",
+      "HYPERLINK": "jramos@araneye.com",
+      "LAT": 25.76161,
+      "LON": -80.26283,
+      "POINT_X": 898783.437343661,
+      "POINT_Y": 519727.687620573
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.26282555309609, 25.761618833767283]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 23,
+      "FACILID": 14120,
+      "FOLIO": "141060430120",
+      "NAME": "The Endoscopy Center",
+      "ADDRESS": "5101 SW 8 Street",
+      "CITY": "MIAMI",
+      "ZIPCODE": 33134,
+      "CONTACT": "Carla Guerrero",
+      "PHONE": "3054611881",
+      "PHONE2": "3059048070",
+      "FAX": "3054452406",
+      "CAPACITY": 7,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "E",
+      "HYPERLINK": "www.endoscopycenterofmiami.com",
+      "LAT": 25.76418,
+      "LON": -80.27732,
+      "POINT_X": 894008.045647744,
+      "POINT_Y": 520635.141186237
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.27731926833414, 25.764188204510678]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 24,
+      "FACILID": 708,
+      "FOLIO": "141050850010",
+      "NAME": "The Gables Surgical Center",
+      "ADDRESS": "401 SW 42nd Avenue, #201",
+      "CITY": "Miami",
+      "ZIPCODE": 33134,
+      "CONTACT": "Elizabeth Herrera",
+      "PHONE": "3054470882",
+      "PHONE2": "5595728785",
+      "FAX": "3054470213",
+      "CAPACITY": 9,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "E",
+      "HYPERLINK": "https://thegablessurgicalcenter.com",
+      "LAT": 25.76829,
+      "LON": -80.26311,
+      "POINT_X": 898674.437561661,
+      "POINT_Y": 522154.531192072
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.26311549872709, 25.768297312938625]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 25,
+      "FACILID": 37781,
+      "FOLIO": "3040030240001",
+      "NAME": "Coral View Surgery Center",
+      "ADDRESS": "8390 W FLAGLER ST",
+      "CITY": "Miami",
+      "ZIPCODE": 33144,
+      "CONTACT": "Maria Pineda",
+      "PHONE": "3053362853",
+      "PHONE2": "3053362853",
+      "FAX": "3052219066",
+      "CAPACITY": 2,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "E",
+      "HYPERLINK": "http://www.coralviewsurgery.com/",
+      "LAT": 25.76941,
+      "LON": -80.33203,
+      "POINT_X": 875990.373021744,
+      "POINT_Y": 522439.946303658
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.3320352911671, 25.769415206231784]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 26,
+      "FACILID": 33301,
+      "FOLIO": "242030098600",
+      "NAME": "Baptist Health Endoscopy Center at Miami Beach ",
+      "ADDRESS": "709 ALTON RD",
+      "CITY": "MIAMI BEACH",
+      "ZIPCODE": 33139,
+      "CONTACT": "Barbara Matias",
+      "PHONE": "7862044010",
+      "PHONE2": "7869424654",
+      "FAX": "3052710383",
+      "CAPACITY": 14,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "B",
+      "HYPERLINK": null,
+      "LAT": 25.77716,
+      "LON": -80.14043,
+      "POINT_X": 939031.562555913,
+      "POINT_Y": 525622.062314741
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.14042725606019, 25.777164522615596]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 27,
+      "FACILID": 198,
+      "FOLIO": "421310311290",
+      "NAME": "Gastrointestinal Center of Hialeah",
+      "ADDRESS": "135 West 49 Street",
+      "CITY": "HIALEAH",
+      "ZIPCODE": 33012,
+      "CONTACT": "Eduardo Soler",
+      "PHONE": "3058251487",
+      "PHONE2": "9547344773",
+      "FAX": "3058259731",
+      "CAPACITY": 22,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": null,
+      "HYPERLINK": "esoler@gastrohealth.com",
+      "LAT": 25.8671,
+      "LON": -80.28523,
+      "POINT_X": 891201.296011914,
+      "POINT_Y": 558026.609054074
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.28522985967552, 25.86710259003359]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 28,
+      "FACILID": 543,
+      "FOLIO": "420340370001",
+      "NAME": "Palmetto Surgery Center",
+      "ADDRESS": "2140 West 68th Street, Suite 102",
+      "CITY": "Hialeah",
+      "ZIPCODE": 33016,
+      "CONTACT": "Yariela Castro",
+      "PHONE": "3055128220",
+      "PHONE2": "3054697064",
+      "FAX": "3055124945",
+      "CAPACITY": 0,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": null,
+      "HYPERLINK": "ycastro@amsurg.com",
+      "LAT": 25.88332,
+      "LON": -80.32636,
+      "POINT_X": 877647.799824994,
+      "POINT_Y": 563852.104292825
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.3263546902634, 25.883326948749946]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 29,
+      "FACILID": 12580,
+      "FOLIO": "420270310001",
+      "NAME": "Palmetto Lakes Surgical Center",
+      "ADDRESS": "2100 West 76 Street, SUITE 101",
+      "CITY": "HIALEAH",
+      "ZIPCODE": 33016,
+      "CONTACT": "Andres Vega",
+      "PHONE": "3054589895",
+      "PHONE2": "3059928205",
+      "FAX": "7864392282",
+      "CAPACITY": 17,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": null,
+      "HYPERLINK": "avdvmd@aol.com",
+      "LAT": 25.89127,
+      "LON": -80.32536,
+      "POINT_X": 877960.062979996,
+      "POINT_Y": 566743.313077323
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.32535976835699, 25.891276887061256]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 30,
+      "FACILID": 1008,
+      "FOLIO": "3220130550010",
+      "NAME": "Miami Lakes Surgery Center",
+      "ADDRESS": "15501 NW 67 Ave",
+      "CITY": "Hialeah",
+      "ZIPCODE": 33014,
+      "CONTACT": "Lee Kortmansky",
+      "PHONE": "3058202900",
+      "PHONE2": "9546321448",
+      "FAX": "3058202939",
+      "CAPACITY": 0,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": null,
+      "HYPERLINK": "miamilakessurgerycenter.com",
+      "LAT": 25.91421,
+      "LON": -80.30851,
+      "POINT_X": 883456.25015033,
+      "POINT_Y": 575108.937422156
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.30850846597829, 25.914213716378235]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 31,
+      "FACILID": 37961,
+      "FOLIO": "3021130021500",
+      "NAME": "Open Access Vascular Access Center",
+      "ADDRESS": "16401 NW 2ND AVE",
+      "CITY": "Miami",
+      "ZIPCODE": 33169,
+      "CONTACT": "Rachael Plummer",
+      "PHONE": "3059485333",
+      "PHONE2": "9546329770",
+      "FAX": "3059483246",
+      "CAPACITY": 3,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": "rplummer@oavac.com",
+      "LAT": 25.92549,
+      "LON": -80.20398,
+      "POINT_X": 917790.625050996,
+      "POINT_Y": 579404.187689908
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.20397943142127, 25.92549465145272]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 32,
+      "FACILID": 189,
+      "FOLIO": "3021130073770",
+      "NAME": "North  Miami Beach Surgical  Center",
+      "ADDRESS": "120 NE 167 Street",
+      "CITY": "North Miami Beach",
+      "ZIPCODE": 33162,
+      "CONTACT": "Mauricio Lemoine",
+      "PHONE": "3059522000",
+      "PHONE2": "3052062027",
+      "FAX": "3059563961",
+      "CAPACITY": 0,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": "Mauricio.Lemoine@hcahealthcare.com",
+      "LAT": 25.92766,
+      "LON": -80.19778,
+      "POINT_X": 919826.642632496,
+      "POINT_Y": 580204.619487993
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.19777016748128, 25.92766258210136]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 33,
+      "FACILID": 197,
+      "FOLIO": "722070080010",
+      "NAME": "Venture Ambulatory Surgery Center",
+      "ADDRESS": "16853 NE 2ND Avenue",
+      "CITY": "North Miami Beach",
+      "ZIPCODE": 33162,
+      "CONTACT": "Eulalia Perez",
+      "PHONE": "3056522999",
+      "PHONE2": "3055025975",
+      "FAX": "3056528156",
+      "CAPACITY": 8,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": null,
+      "HYPERLINK": "www.venturesurgerycenter.com",
+      "LAT": 25.92982,
+      "LON": -80.19608,
+      "POINT_X": 920378.39677833,
+      "POINT_Y": 580995.12512482
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.19607673177961, 25.929828058110946]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 34,
+      "FACILID": 29861,
+      "FOLIO": "3012340840001",
+      "NAME": "Miami Surgery, LLC",
+      "ADDRESS": "20200 W. Dixie Hwy Suite G-03",
+      "CITY": "Miami",
+      "ZIPCODE": 33180,
+      "CONTACT": "Stephanie Mejia",
+      "PHONE": "3058781920",
+      "PHONE2": "3056104426",
+      "FAX": "7542090930",
+      "CAPACITY": 3,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": "steph@lampertmd.com",
+      "LAT": 25.96309,
+      "LON": -80.14813,
+      "POINT_X": 936055.999937497,
+      "POINT_Y": 593186.500020243
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.14813672538926, 25.963095060381505]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "OBJECTID": 35,
+      "FACILID": 987,
+      "FOLIO": "2812340060940",
+      "NAME": "Surgery Center of Aventura",
+      "ADDRESS": "20601 E. Dixie Highway, Suite 400",
+      "CITY": "Aventura",
+      "ZIPCODE": 33180,
+      "CONTACT": "Jill Grigaitis",
+      "PHONE": "3057920323",
+      "PHONE2": "3055277447",
+      "FAX": "3057920383",
+      "CAPACITY": 27,
+      "CAP_DESC": "Bed",
+      "CLOSED": "N",
+      "HURZONE": "D",
+      "HYPERLINK": "www.scaventura.com",
+      "LAT": 25.96667,
+      "LON": -80.14683,
+      "POINT_X": 936475.646407913,
+      "POINT_Y": 594491.408499658
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-80.14683371727304, 25.96667744118258]
+    }
+  }]
+}
