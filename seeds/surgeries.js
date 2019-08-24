@@ -1,14 +1,15 @@
-const hospitalData = require("./src/Ambulatory_Surgical_Center.json")
+const hospitalData = require("../src/Ambulatory_Surgical_Center")
 
 exports.seed = function(knex,Promise) {
   // Deletes ALL existing entries
   return knex('surgerycenters').del()
     .then(function () {
-      // Inserts seed entries
-      return knex('surgerycenters').insert([
-        {id: 1, FacilID: 'boop', Name:"ed", latitude:"40", longitude:"50", address:"1234", phonenumber:"1234"},
-        {id: 1, FacilID: 'hoops', Name:"al", latitude:"39", longitude:"49", address:"1234", phonenumber:"1234"}
+      // hospitalData.features.forEach((hospital)=>{
+        return knex('surgerycenters').insert([
+          // {FacilID: hospital.properties.FACILID, Name:hospital.properties.NAME, latitude:hospital.geometry.coordinates[1], longitude:hospital.geometry.coordinates[0], address:hospital.properties.ADDRESS, phonenumber:hospital.properties.PHONE}
+          {FacilID: hospitalData.features[0].properties.FACILID, Name:hospitalData.features[0].properties.NAME, latitude:hospitalData.features[0].geometry.coordinates[1], longitude:hospitalData.features[0].geometry.coordinates[0], address:hospitalData.features[0].properties.ADDRESS, phonenumber:hospitalData.features[0].properties.PHONE}
 
-      ]);
-    });
+        ]);
+      })
+    // });
 };
