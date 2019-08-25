@@ -34,17 +34,18 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <ReactMapGL {...this.state.viewport}
+        <ReactMapGL {...this.state.viewport}{...this.state.hospitals}
         mapboxApiAccessToken={"pk.eyJ1IjoiZWRpc29udG9vbGUiLCJhIjoiY2pncXdnajM2MGg2ejJ4cGUzdW92bDNzcCJ9.YG4_JLO78bqmlpBcLHzuWw"}
         onViewportChange={(viewport) => this.setState({viewport})}
-        mapStyle = "mapbox://styles/edisontoole/cjzcqcbwh2eml1co2qsla3bbt">
-        {hospitalData.features.map((hospital)=>(
-          <Marker key={hospital.properties.FACILID} latitude={hospital.geometry.coordinates[1]} longitude={hospital.geometry.coordinates[0]}>
+        mapStyle = "mapbox://styles/edisontoole/cjzcqcbwh2eml1co2qsla3bbt"
+        onClick={(e)=>{console.log(this.state.hospitals[0].latitude)}}>
+        {this.state.hospitals.map((hospital)=>(
+          <Marker key={hospital.FacilID} latitude={parseFloat(hospital.latitude)} longitude={parseFloat(hospital.longitude)}>
           <button onClick={(e) => {
             e.preventDefault()
-            console.log(this.state.hospitals[0])
+            console.log(hospital.FacilID)
           }}>
-           {hospital.properties.NAME}
+           "hospital!"
           </button>
           </Marker>
         ))}

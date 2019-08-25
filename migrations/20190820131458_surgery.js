@@ -4,8 +4,8 @@ exports.up = function(knex,Promise) {
     table.increments('id').notNullable();
     table.string('FacilID').notNullable().defaultTo('')
     table.string('Name').notNullable().defaultTo('')
-    table.string('latitude').notNullable().defaultTo('')
-    table.string('longitude').notNullable().defaultTo('')
+    table.string('latitude').notNullable().defaultsTo(0)
+    table.string('longitude').notNullable().defaultsTo(0)
     table.string('address').notNullable().defaultTo('')
     table.string('phonenumber').notNullable().defaultTo('')
   })
