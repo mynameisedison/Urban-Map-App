@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "cors": "^2.8.5",
+    "deck.gl": "^7.2.3",
     "eslint-utils": ">=1.4.1",
     "esm": ">=3.1.0",
     "express": "^4.17.1",

@@ -1,6 +1,10 @@
 import React,{Component} from 'react';
 import ReactMapGL, {Marker,Popup} from "react-map-gl";
+import pin from './pin.png'
 import './App.css';
+import ControlPanel from './control-panel';
+const districtData = require("../src/data/School_Board_District")
+
 
 class App extends Component {
 
@@ -12,7 +16,7 @@ class App extends Component {
         height: '100vh',
         latitude: 25.74233304264988,
         longitude: -80.25408198633106,
-        zoom: 8
+        zoom: 10
       },
       hospitals:[],
       selectedHospital:null,
@@ -36,21 +40,21 @@ class App extends Component {
         mapStyle = "mapbox://styles/edisontoole/cjzcqcbwh2eml1co2qsla3bbt"
         onClick={()=>{
           console.log("click")
-          this.setState({selectedHospital:null,showHospitals:!this.state.showHospitals})
+          this.setState({selectedHospital:null})
         }}>
         {this.state.showHospitals ? (
           this.state.hospitals.map((hospital)=>(
             <Marker key={hospital.FacilID} latitude={parseFloat(hospital.latitude)} longitude={parseFloat(hospital.longitude)}>
-            <button onClick={async(e) => {
+            <button className="marker-btn" onClick={async(e) => {
               e.preventDefault()
               await this.setState({selectedHospital:hospital})
-              console.log(this.state.selectedHospital)
             }}>
-            ^
+              <img src={pin} alt={"-"} />
             </button>
             </Marker>
           ))
         ):null}
+
         {this.state.selectedHospital ? (
           <Popup latitude={parseFloat(this.state.selectedHospital.latitude)}
            longitude={parseFloat(this.state.selectedHospital.longitude)}
@@ -70,7 +74,15 @@ class App extends Component {
             </div>
           </Popup>
         ):null}
+        <ControlPanel
+          onClick={()=>{
+            console.log("clicked box")
+            this.setState({selectedHospital:null,showHospitals:!this.state.showHospitals})
+          }}
+          containerComponent={this.props.containerComponent}
+        />
         </ReactMapGL>
+
       </div>
     )
   }

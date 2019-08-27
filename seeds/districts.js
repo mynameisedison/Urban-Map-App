@@ -1,4 +1,4 @@
-const districtData = require("../src/School_Board_District")
+const districtData = require("../src/data/School_Board_District")
 
 exports.seed = function(knex) {
   return knex('districts').del()

@@ -1,4 +1,4 @@
-const hospitalData = require("../src/Ambulatory_Surgical_Center")
+const hospitalData = require("../src/data/Ambulatory_Surgical_Center")
 
 exports.seed = function(knex, Promise){
   return knex('surgerycenters').del()
