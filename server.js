@@ -18,12 +18,16 @@ app.listen(port, () => {
 
 
 app.get('/', (request, response) => {
-  response.json({ info: 'Node.js, Express, and Postgres API' })
+  response.json({ info: 'Hi I am a REST API' })
 })
 
-app.get('/surgerycenters', db.getUsers)
+app.get('/surgerycenters', db.getSurgeryCenters)
 
-app.get('/surgerycenters/:id', db.getUserById)
+app.get('/districts', db.getDistricts)
+
+app.get('/surgerycenters/:id', db.getSurgeryCentersById)
+
+app.get('/disctricts/:id',db.getDistrictById)
 
 
 app.use(function(req,res,next){
