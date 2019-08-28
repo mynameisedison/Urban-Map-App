@@ -1,8 +1,10 @@
-import React,{Component} from 'react';
-import ReactMapGL, {Marker,Popup} from "react-map-gl";
+import React,{Component} from 'react'
+import ReactMapGL, {Marker,Popup} from "react-map-gl"
 import pin from './pin.png'
-import './App.css';
-import ControlPanel from './control-panel';
+import './App.css'
+import ControlPanel from './control-panel'
+import DeckGL from '@deck.gl/react';
+import {PolygonLayer} from "deck.gl"
 const districtData = require("../src/data/School_Board_District")
 
 
@@ -22,9 +24,36 @@ class App extends Component {
       selectedHospital:null,
       showHospitals:null
     };
+    this.toggleShow = this.toggleShow.bind(this)
   }
 
+  polygonData=[{
+    contours:[districtData.features[1].geometry.coordinates[0]],
+    name:"first polygon"
+  }]
+  LAYER_POLY = new PolygonLayer({
+    id: "poly-layers",
+    data:districtData.features[1].geometry.coordinates[0],
+    stroked: true,
+    filled: true,
+    extruded: false,
+    wireframe: true,
+    lineWidthMinPixels: 1,
+    getPolygon: d => d.contours,
+    getLineColor: [80, 80, 80],
+    getFillColor: [80, 80, 80],
+    getLineWidth: 250
+  })
 
+  //function to toggle layer of pins from surgerycenters
+  toggleShow() {
+    this.setState({
+      showHospitals: !this.state.showHospitals
+    })
+    console.log(districtData.features[2]);
+  }
+
+  //async await waits for fetch response and stores it in state
   async componentDidMount() {
     let response = await fetch('http://localhost:5000/surgerycenters')
     let myJson = await response.json()
@@ -55,10 +84,13 @@ class App extends Component {
           ))
         ):null}
 
+
+
         {this.state.selectedHospital ? (
-          <Popup latitude={parseFloat(this.state.selectedHospital.latitude)}
-           longitude={parseFloat(this.state.selectedHospital.longitude)}
-           onClose={()=>{this.setState({selectedHospital: null})}}>
+          <Popup
+          latitude={parseFloat(this.state.selectedHospital.latitude)}
+          longitude={parseFloat(this.state.selectedHospital.longitude)}
+          onClose={()=>{this.setState({selectedHospital: null})}}>
             <h4>
             {this.state.selectedHospital.Name}
             </h4>
@@ -75,9 +107,10 @@ class App extends Component {
           </Popup>
         ):null}
         <ControlPanel
+          showHospitals={this.state.showHospitals}
+          toggleShow={this.toggleShow}
           onClick={()=>{
             console.log("clicked box")
-            this.setState({selectedHospital:null,showHospitals:!this.state.showHospitals})
           }}
           containerComponent={this.props.containerComponent}
         />
