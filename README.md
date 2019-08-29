@@ -5,13 +5,13 @@ run the following commands:
 
 make sure npm is installed with npm install -g
 
-```npm install pg express knex;
+```npm install pg express knex;```
 
-to install node-postgres, express, and knex```
+to install node-postgres, express, and knex
 
-```createdb urban;
+createdb urban;
 
-creates database called "urban"```
+creates database called "urban"
 
 ```knex migrate:latest;
 
@@ -42,13 +42,14 @@ grants user me all privileges for tables surgerycenters and districts```
 database is now set up. \q to leave psql.
 
 To get the server started, run:
-### `node server.js`
+node server.js
+
 Open [http://localhost:5000](http://localhost:5000) to view the data in your browser.
 
 
 to start react app, run:
 
-### `npm start`
+npm start
 
 This runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
