@@ -76,7 +76,7 @@ class App extends Component {
             <Marker key={hospital.FacilID} latitude={parseFloat(hospital.latitude)} longitude={parseFloat(hospital.longitude)}>
             <button className="marker-btn" onClick={async(e) => {
               e.preventDefault()
-              await this.setState({selectedHospital:hospital})
+              this.state.selectedHospital === hospital ? await this.setState({selectedHospital:null}) : await this.setState({selectedHospital:hospital})
             }}>
               <img src={pin} alt={"-"} />
             </button>

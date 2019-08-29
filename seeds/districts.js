@@ -8,7 +8,7 @@ exports.seed = function(knex) {
       boardmember:districtData.features[0].properties.BRDMBR,
       shapearea: districtData.features[0].properties.Shape__Area,
       shapelength: districtData.features[0].properties.Shape__Length,
-      coordinates: districtData.features[0].geometry.coordinates[0][0][0]
+      coordinates: districtData.features[0].geometry.coordinates[0][0]
     },{
       id:districtData.features[1].properties.OBJECTID,
       boardmember:districtData.features[1].properties.BRDMBR,
