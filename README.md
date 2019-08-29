@@ -5,13 +5,9 @@ run the following commands:
 
 make sure npm is installed with npm install -g
 
-```npm install pg express knex;```
+```npm install pg express knex;``` to install node-postgres, express, and knex
 
-to install node-postgres, express, and knex
-
-createdb urban;
-
-creates database called "urban"
+```createdb urban;``` creates database called "urban"
 
 ```knex migrate:latest;
 
