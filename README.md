@@ -28,7 +28,7 @@ database is now set up. \q to leave psql.
 To get the server started, run:
 ```node server.js```
 
-Open [http://localhost:5000](http://localhost:5000) to view the data in your browser.
+Endpoints are located at [http://localhost:5000/surgerycenters](http://localhost:5000/surgerycenters) and [http://localhost:5000/districts](http://localhost:5000/districts)
 
 
 to start react app, run:
